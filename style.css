@@ -1,44 +1,28 @@
 * {
   box-sizing: border-box;
 }
-.header {
-  width: 100%;
-  position: fixed;
-  background-color: darkturquoise;
-  height: 40px;
-  color: white;
+body {
+  display: flex;
+
+  
 }
-.nav-list {
-  list-style: none;
-  line-height: 40px;
-  margin: 0;
+.block {
+  height: 100px;
+  flex-grow: 1;
 }
-.nav-item {
-  float: left;
-  margin-left: 16px;
+
+.block_red {
+  background-color:  red;
 }
-.content {
-  height: 5000px;
-  background-color: beige;
+.block_green {
+  background-color:  green;
 }
-.head {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  background-color: aquamarine;
-  top: calc(50% - 100px);
-  left: calc(50% - 100px);
+.block_blue {
+  background-color:  blue;
 }
-.ear {
-  position: absolute;
-  width: 40px;
-  height: 60px;
-  background-color: brown;
-  top: -60px;
+.block_yellow {
+  background-color:  yellow;
 }
-.ear_right {
-  right: -40px;
-}
-.ear_left {
-  left: -40px;
+.block_black {
+  background-color:  black;
 }
